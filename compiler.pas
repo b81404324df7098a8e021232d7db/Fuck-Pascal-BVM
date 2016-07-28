@@ -1,5 +1,10 @@
+uses dos;
 var c:char;
 begin
+    assign(input,'source.bf');
+    assign(output,'source.pas');
+    reset(input);
+    rewrite(output);
     writeln('var');
     writeln('c:array[1..100000] of byte;');
     writeln('pointer:longint;');
@@ -22,4 +27,7 @@ begin
         end;
     end;
     writeln('end.');
+    close(input);
+    close(output);
+    exec('fpc','source.pas -O4');
 end.
