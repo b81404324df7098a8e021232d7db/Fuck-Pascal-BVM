@@ -11,7 +11,6 @@ A brainfuck's virtual machine, written by pascal.
 ####Compiler
 put "source.bf" in the same directory with this executable file, then run it. (Make sure fpc.exe's directory is in your Environment Variable "Path".)
 
-&ensp;
 ####Interpreter
 Input you source, end with a '$'.
 
