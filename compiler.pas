@@ -1,4 +1,4 @@
-var c:char
+var c:char;
 begin
     writeln('var');
     writeln('c:array[1..100000] of byte;');
