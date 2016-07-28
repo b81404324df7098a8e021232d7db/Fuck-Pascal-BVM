@@ -6,6 +6,7 @@ A brainfuck's virtual machine, written by pascal.
 &ensp;
 
 ###Instruction:
+------------------------------
 ####Compiler
 put "source.bf" in the same directory with this executable file, then run it. (Make sure fpc.exe's directory is in your Environment Variable "Path".)
 
