@@ -16,7 +16,7 @@ begin
             '+':writeln('inc(c[pointer]);');
             '-':writeln('dec(c[pointer]);');
             '.':writeln('write(chr(c[pointer]));');
-            ',':begin writeln('read(tmp);'); writeln('c[pointer]:=ord(tmp)'); end;
+            ',':begin writeln('read(tmp);'); writeln('c[pointer]:=ord(tmp);'); end;
             '[':begin writeln('while ord(c[pointer])<>0 do'); writeln('begin'); end;
             ']':writeln('end;');
         end;
