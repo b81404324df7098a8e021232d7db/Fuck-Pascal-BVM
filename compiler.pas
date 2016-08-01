@@ -12,7 +12,7 @@ begin
     writeln('begin');
     writeln('fillchar(c,sizeof(c),0);');
     writeln('pointer:=1;');
-    while not(eoln) do
+    while not(eof) do
     begin
         read(c);
         case c of
