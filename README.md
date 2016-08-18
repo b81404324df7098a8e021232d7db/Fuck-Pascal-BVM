@@ -1,6 +1,6 @@
 # Fuck-Pascal-BVM
 
-A brainfuck's virtual machine, written by pascal.
+A brainfuck's compiler(?), written by pascal.
 
 &ensp;
 
